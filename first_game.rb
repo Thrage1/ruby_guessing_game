@@ -48,8 +48,6 @@ while true
           puts "please choose a number from 1 - 100"
           guess = gets.chomp.to_i
           guess_count += 1
-    #     end
-    #     puts "you win"
         end
       end
       if guess == actual_num
@@ -66,48 +64,3 @@ while true
     play = gets.chomp.downcase
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-#     while guess != actual_num
-#       while guess_count < 10
-#         if guess > actual_num
-#           puts "too high"
-#           puts "Guess again"
-#           guess_count += 1
-#           guess = gets.chomp.to_i
-#         elsif guess < actual_num
-#           puts "too low"
-#           puts "Guess again"
-#           guess_count += 1
-#           guess = gets.chomp.to_i
-#         elsif guess.class != Fixnum
-#           puts "not a number bud"
-#           puts "guess again"
-#           guess_count += 1
-#           guess = gets.chomp.to_i
-#         break
-#         puts "you lose more than 10 guesses"
-#       else
-#         puts "not a number buddy"
-#       end
-#       puts "lose with more than 10 guesses"
-#       break
-#     end
-#     puts "You Win #{username}, it only took you #{guess_count} number
-#     of guesses."
-#     break
-#   else
-#     puts "please enter y or n"
-#     play = gets.chomp
-#   end
-#   break
-# end
