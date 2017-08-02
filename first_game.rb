@@ -16,7 +16,7 @@ while true
       break
     end
     puts "yay lets play"
-    actual_num = rand(101)
+    actual_num = rand(100) + 1
     puts "I've chosen a number from 1 - 100."
     puts "Guess my number"
     guess = gets.chomp.to_i
